@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => const LoginScreen(),
         '/call': (context) => const CallScreen(),
       },
-      initialRoute: '/',
+      initialRoute: '/', // default is '/'
     );
   }
 }
